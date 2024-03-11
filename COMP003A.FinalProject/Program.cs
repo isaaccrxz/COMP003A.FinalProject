@@ -89,9 +89,15 @@ namespace COMP003A.FinalProject
                 
             }
 
-            Console.WriteLine("The city you live in is " + answers[0] + ". You are " + answers[1] + "feet tall." + " You weigh " + answers[2] + ". Your job is " + answers[3] +". Your hobbies are " + answers[4] + ". Your race and/or ethnicty(s) " + answers[5] + ". Your life goals are " + answers[6] + ". You have " + answers[7] + " kid(s). The 3 places you would like to visit are " + answers[8] + ". To end off, your favorite music genre is " + answers[9] + ". ");
+            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("Congratulations you have successfully created your dating profile account! These are the answers you have provided today. ");
+            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("\n");
 
-
+            Console.WriteLine("The city you live in is " + answers[0] + ". You are " + answers[1] + "feet tall." + 
+            " You weigh " + answers[2] + ". Your job is " + answers[3] +". Your hobbies are " + answers[4] + ". Your race and/or ethnicty(s) " + answers[5] + 
+            ". Your life goals are " + answers[6] + ". You have " + answers[7] + " kid(s). The 3 places you would like to visit are " + answers[8] + 
+            ". To end off, your favorite music genre is " + answers[9] + ". ");
         }
 
     }
