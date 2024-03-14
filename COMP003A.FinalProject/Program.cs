@@ -3,7 +3,6 @@
  * Course: COMP003A
  * Purpose: Creating Final Project for COMP003A, 
  */
-using System.Net;
 
 namespace COMP003A.FinalProject
 {
@@ -11,9 +10,9 @@ namespace COMP003A.FinalProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(119, '*'));
             Console.WriteLine("Hello, You will need to answer a few questions about yourself before creating a New User Profile for this Dating App.");
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(119, '*'));
             Console.WriteLine("\n");
 
             Console.Write("What is your first name? ");
@@ -56,9 +55,9 @@ namespace COMP003A.FinalProject
             Console.WriteLine("You were born in " + currentYear + "."); // gets the users input and subtracts it from this years date.
             Console.WriteLine("\n");
 
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(119, '*'));
             Console.WriteLine("Congratulations you have successfully answered the few questions about yourself! Now answering a few questions for your profile.");
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(119, '*'));
             Console.WriteLine("\n");
 
             SayQuestions();
@@ -89,9 +88,9 @@ namespace COMP003A.FinalProject
                 
             }
 
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(150, '*'));
             Console.WriteLine("Congratulations you have successfully created your dating profile account! These are the answers you have provided today. ");
-            Console.WriteLine("".PadRight(100, '*'));
+            Console.WriteLine("".PadRight(150, '*'));
             Console.WriteLine("\n");
 
             Console.WriteLine("The city you live in is " + answers[0] + ". You are " + answers[1] + "feet tall." + 
